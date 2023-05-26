@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e80e4c2ffc9544596c7712c9fe1574, type: 3}
+  m_Name: Defend
+  m_EditorClassIdentifier: 
+  mindamage: 0
+  maxdamage: 0
+  hitCount: 1
+  manaCost: 0
+  damageTargeting: 2
+  spellSprite: {fileID: 0}
+  buffType: 8
+  buffTargeting: 1
+  buffRemoveTrigger: 0
+  buffChance: 1
+  buffCount: 1
+  buffSprite: {fileID: 21300000, guid: 2c5992eb2647c1d4091a1bfea0782acf, type: 3}
+  buffInfo: Next Hit against this Unit has its Damage reduced to <color=green>0</color>

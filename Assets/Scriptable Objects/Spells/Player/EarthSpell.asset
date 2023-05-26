@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e80e4c2ffc9544596c7712c9fe1574, type: 3}
+  m_Name: EarthSpell
+  m_EditorClassIdentifier: 
+  mindamage: 30
+  maxdamage: 30
+  hitCount: 1
+  manaCost: 1
+  damageTargeting: 0
+  spellSprite: {fileID: 21300000, guid: 95e84e329f2157149b7f8081c741f540, type: 3}
+  buffType: 10
+  buffTargeting: 3
+  buffRemoveTrigger: 3
+  buffChance: 0
+  buffCount: 0
+  buffSprite: {fileID: 21300000, guid: 6da5acf0a8e59124488d9dfa1cab6763, type: 3}
+  buffInfo: 
