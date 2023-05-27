@@ -205,6 +205,10 @@ public class CombatManager : MonoBehaviour
                 enemyCombatUnits[i].RemoveBuffAtTurnStart();
                 enemyCombatUnits[i].EnemyAttack(currentTarget,currentAttacker);
             }
+            else
+            {
+                Application.Quit();
+            }
             yield return new WaitForSeconds(0.5f);
         }
 
