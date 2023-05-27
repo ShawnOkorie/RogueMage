@@ -9,17 +9,19 @@ using Random = UnityEngine.Random;
 public class Enemy : CombatUnit
 {
     [Header("References")]
-    public EnemyType enemyType;
     private CombatManager combatManager;
-    public TextMeshProUGUI previewText;
-    public Image previewIcon;
+    [SerializeField] private EnemyType enemyType;
+    [SerializeField] private TextMeshProUGUI previewText;
+    [SerializeField] private Image previewIcon;
     [SerializeField] private Image targetImage;
+    [SerializeField] private AudioSource audioSource;
 
     private Spell _nextSpell;
     private int counter;
     protected override void Awake()
     {
         combatManager = GameObject.FindGameObjectWithTag("CombatManager").GetComponent<CombatManager>();
+        audioSource = GetComponent<AudioSource>();
         combatManager.OnTargetChanged += ChangeTargetImage;
         base.Awake();
     }
@@ -35,7 +37,7 @@ public class Enemy : CombatUnit
     public void EnemyAttack(CombatUnit target,CombatUnit caster)
     {
         StartCoroutine(combatManager.SpellCast(_nextSpell, target, caster));
-
+       
         previewIcon.color = Color.clear;
         previewText.gameObject.SetActive(false);
     }

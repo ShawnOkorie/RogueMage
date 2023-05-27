@@ -18,6 +18,7 @@ MonoBehaviour:
   manaCost: 1
   damageTargeting: 0
   spellSprite: {fileID: 21300000, guid: 9030749635c77be4487f4288aeb4e4ad, type: 3}
+  spellSFX: {fileID: 8300000, guid: f5650682dcc6c0841aaf8b252f0aeba6, type: 3}
   buffType: 5
   buffTargeting: 0
   buffRemoveTrigger: 1

@@ -22,6 +22,7 @@ public class Spell : ScriptableObject
         Self,
         None
     }
+    public AudioClip spellSFX;
    
     [Header("Buff")]
     

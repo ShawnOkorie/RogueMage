@@ -18,9 +18,10 @@ MonoBehaviour:
   manaCost: 1
   damageTargeting: 1
   spellSprite: {fileID: 21300000, guid: 69188c17cb35bc9439e8d32a86355b2c, type: 3}
+  spellSFX: {fileID: 8300000, guid: 42746ea96e83e724285962f02028dc97, type: 3}
   buffType: 3
   buffTargeting: 2
-  buffRemoveTrigger: 2
+  buffRemoveTrigger: 3
   buffChance: 1
   buffCount: 1
   buffSprite: {fileID: 21300000, guid: d9c389e98959ce24c99261834a7eee86, type: 3}

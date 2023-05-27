@@ -133,6 +133,9 @@ public class CombatManager : MonoBehaviour
 
     public IEnumerator SpellCast(Spell spell, CombatUnit target,CombatUnit caster)
     {
+        AudioSource audioSource = caster.GetComponent<AudioSource>();
+        audioSource.PlayOneShot(spell.spellSFX);
+        
         for (int u = 0; u < spell.hitCount; u++)
         {
             if (spell.maxdamage == 0)
@@ -184,7 +187,7 @@ public class CombatManager : MonoBehaviour
                     break;
             }
         }
-       
+
         if (_currentTurn == CurrentTurn.playerTurn)
             SetButtonInteractability(true);
     }
