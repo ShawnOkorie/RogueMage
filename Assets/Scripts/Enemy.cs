@@ -36,7 +36,7 @@ public class Enemy : CombatUnit
 
     public void EnemyAttack(CombatUnit target,CombatUnit caster)
     {
-        if (currenthealth >= 0)
+        if (currenthealth <= 0)
             gameObject.SetActive(false);
         
         StartCoroutine(combatManager.SpellCast(_nextSpell, target, caster));

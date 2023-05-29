@@ -47,7 +47,7 @@ public class Player : CombatUnit
 
     public void CheckCast(Spell spell)
     {
-        if (currenthealth >= 0)
+        if (currenthealth <= 0)
             Application.Quit();
         
         if (playerCanCast)

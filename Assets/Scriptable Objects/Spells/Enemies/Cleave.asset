@@ -21,7 +21,7 @@ MonoBehaviour:
   spellSFX: {fileID: 8300000, guid: efb6a36ad07959845aee21c32208ab2f, type: 3}
   buffType: 5
   buffTargeting: 0
-  buffRemoveTrigger: 0
+  buffRemoveTrigger: 1
   buffChance: 1
   buffCount: 1
   buffSprite: {fileID: 21300000, guid: 56b7712655349d54ab3405c0099e18b4, type: 3}

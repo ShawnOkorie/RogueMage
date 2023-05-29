@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxhealth: 400
   attacks:
-  - {fileID: 11400000, guid: 18f1da1c313bacc41a038dbf0d5df5a3, type: 2}
   - {fileID: 11400000, guid: 73348680f360e114bab0794344e81351, type: 2}
+  - {fileID: 11400000, guid: 18f1da1c313bacc41a038dbf0d5df5a3, type: 2}
   randomAttackSelect: 0
